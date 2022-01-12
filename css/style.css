@@ -1,0 +1,40 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.orange {
+    color: orange;
+}
+
+.green {
+    color: green;
+}
+
+.blue {
+    color: blue;
+}
+
+#icons-container {
+    display: flex;
+    width: 1200px;
+    align-content: flex-start;
+    margin-top: 100px;
+}
+
+.fas {
+    font-size: 50px;
+}
+
+.icon-box {
+    background-color: whitesmoke;
+    text-align: center;
+    width: 100px;
+}
+
+.row {
+    clear: both;
+    display: table;
+    content: "";
+}
