@@ -16,25 +16,39 @@
     color: blue;
 }
 
+.selection-box {
+    background-color: lightblue;
+    width: 1200px;
+    text-align: center;
+    margin-top: 100px;
+    height: 50px;
+    line-height: 50px;
+}
+
 #icons-container {
     display: flex;
     width: 1200px;
     align-content: flex-start;
-    margin-top: 100px;
+    flex-wrap: wrap;
 }
 
 .fas {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .icon-box {
     background-color: whitesmoke;
     text-align: center;
-    width: 100px;
+    width: 80px;
+    padding: 20px 5px;
 }
 
 .row {
     clear: both;
     display: table;
     content: "";
+}
+
+.hide {
+    display: none;
 }
